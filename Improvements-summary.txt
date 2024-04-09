@@ -1,0 +1,9 @@
+Custom Error Handling: Created a middleware to handle errors in a clear and readable way without crashing the application. Used the express-async-errors library to simplify code by avoiding try-catch blocks.
+
+Organized Code Structure: Divided the code into separate folders for routes, controllers, middlewares and errors, making it easier to manage and maintain.
+
+Defined User Schema: Created a structured schema for user data, ensuring only specified fields can be inserted and preventing random data from being added.
+
+Unique Email Validation: Implemented validations to ensure that no two users can have the same email address, preventing duplicate accounts.
+
+Password Validation Method: Added a method to the user schema for validating passwords.
